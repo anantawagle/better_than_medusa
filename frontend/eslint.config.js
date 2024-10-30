@@ -23,6 +23,7 @@ export default [
       'react-hooks': reactHooks,
       'react-refresh': reactRefresh,
     },
+    
     rules: {
       ...js.configs.recommended.rules,
       ...react.configs.recommended.rules,
@@ -34,5 +35,7 @@ export default [
         { allowConstantExport: true },
       ],
     },
+    
+    
   },
 ]
